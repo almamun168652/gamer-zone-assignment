@@ -312,6 +312,7 @@
     .footer-content .copyright {
         width: 65%;
         margin:0 auto;
+        margin-top: 20px;
     }
 
 }

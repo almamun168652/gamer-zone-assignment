@@ -18,6 +18,10 @@
         max-height: 225px;
         max-width: 200px;
     }
+
+    .career-content {
+        max-width: 40%;
+    }
 }
 
 
@@ -70,6 +74,29 @@
         max-width: 180px;
         bottom: -40px;
         right: -80px;
+    }
+
+    .career-wrapper {
+        flex-direction: column;
+    }
+
+    #career{
+        background-image: none;
+    }
+
+    .career-img{
+        background-image: url('../images/Group\ 65.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 20px 0px;
+        width: 80%;
+        height: 450px;
+    }
+
+.career-content {
+        max-width: 80%;
+        padding-top: 25px;
     }
 }
 
@@ -146,6 +173,9 @@
     .instant-content {
         width: 80%;
     }
+    .career-img {
+        height: 315px;
+    }
 
 }
 
@@ -208,4 +238,11 @@
         font-size: 30px;
     }
 
+    .career-img {
+        height: 300px;
+        width: 375px;
+    }
+
 }
+
+

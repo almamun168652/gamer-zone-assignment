@@ -1,0 +1,19 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+

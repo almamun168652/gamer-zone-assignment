@@ -4,6 +4,10 @@
     .container{
         width: 90%;
     }
+
+    .user-wrapper{
+        padding: 20px 0px;
+    }
 }
 
 
@@ -11,10 +15,25 @@
 /* 992px responsive */
 
 @media screen and ( max-width: 992px ) {
-
     .banner-wrapper {
-        height: 400px;
+       height: auto;
     }
+
+    .user-wrapper{
+        flex-direction: column;
+    }
+
+    .user-img , .user-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .user-content .user-description{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
 }
 
 
@@ -33,7 +52,7 @@
     }
 
     .banner-wrapper{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .banner-content, .banner-img {

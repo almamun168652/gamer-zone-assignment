@@ -1,9 +1,15 @@
 /* 1024px responsive */
 
 @media screen and (max-width: 1024px) {
-    .container {
+    .container{
         width: 90%;
     }
+
+    .games-container{
+        width: 90%;
+    }
+
+    
 
     .user-wrapper {
         padding: 20px 0px;
@@ -21,6 +27,15 @@
 
     .career-content {
         max-width: 40%;
+    }
+
+    .games-wrapper {
+        margin: 50px 0px;
+        gap: 20px 25px;
+    }
+
+    .games-item img {
+        width: 30px;
     }
 }
 
@@ -94,9 +109,14 @@
         height: 450px;
     }
 
-.career-content {
+    .career-content {
         max-width: 80%;
         padding-top: 25px;
+    }
+
+    .games-wrapper {
+        margin: 50px 0px;
+        gap: 20px 65px;
     }
 }
 
@@ -177,6 +197,15 @@
         height: 315px;
     }
 
+    .games-item {
+        gap: 5px;
+        padding: 8px 8px;
+    }
+
+    .games-wrapper {
+        gap: 10px 20px;
+    }
+
 }
 
 
@@ -241,6 +270,48 @@
     .career-img {
         height: 300px;
         width: 375px;
+    }
+
+    .games-item img {
+        width: 25px;
+    }
+
+    .games-item h5 {
+        font-size: 10px;
+    }
+
+    .games-item {
+        gap: 5px;
+        padding: 5px 5px;
+    }
+
+    .games-container {
+        width: 95%;
+    }
+
+    .games-wrapper {
+        gap: 5px 5px;
+    }
+
+    .foot-menu {
+        gap: 15px 50px;
+    }
+
+    .foot-icon-menu {
+        flex-wrap: wrap;
+        gap: 20px 50px;
+        width: 50%;
+        margin:0 auto;
+        margin-bottom: 20px;
+    }
+
+    .terms {
+        gap:20px 50px;
+    }
+
+    .footer-content .copyright {
+        width: 65%;
+        margin:0 auto;
     }
 
 }

@@ -24,10 +24,11 @@ body {
 
 /* nav style */
 
-#header{
+#header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -89,4 +90,83 @@ body {
 
 .menu-container .menu-follow-btn i:last-child {
     color: #000000;
+}
+
+
+
+/* banner style */
+
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 517px;
+}
+
+.banner-content{
+    background-image: url('../images/Group\ 14.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-content,
+.banner-img {
+    max-width: 50%;
+}
+
+.banner-content p {
+    color: #0B0223;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.banner-content h1 {
+    background: linear-gradient(to bottom, #F948B2, #8758F1);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.banner-content .banner-list-container li {
+    list-style: none;
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3rem;
+}
+
+.banner-content .banner-list-container li i {
+    color: #202022;
+    margin-right: 5px;
+}
+
+.banner-btn-container{
+    margin-top: 15px;
+}
+
+.btn-primary{
+    border-radius: 48px;
+    background: #FF42A5 ;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-banner-go{
+    background-color: #4EC5F7;
+}
+
+.banner-img img {
+    width: 100%;
 }

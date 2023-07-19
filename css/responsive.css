@@ -34,6 +34,16 @@
         margin-bottom: 10px;
     }
 
+    .collection-item-wrapper{
+        grid-template-columns: repeat(2 , 1fr);
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .collection-title {
+        width: 100%;
+    }
+
 }
 
 
@@ -62,6 +72,9 @@
     .banner-content{
         padding: 30px 0px;
     }
+    .collection-item-wrapper{
+        width: 80%;
+    }
 
 }
 
@@ -79,5 +92,17 @@
         text-align: center;
         margin-top: 20px;
         gap:20px;
+    }
+
+    .collection-item-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .collection-title p {
+        font-size: 13px;
+    }
+
+    .collection-title h1 {
+        font-size: 26px;
     }
 }

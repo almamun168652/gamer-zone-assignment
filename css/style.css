@@ -199,14 +199,14 @@ body {
 }
 
 .user-content h1 {
-    background: linear-gradient(to bottom, #F948B2 , #8758F1);
+    background: linear-gradient(to bottom, #F948B2, #8758F1);
     -webkit-background-clip: text;
     color: transparent;
     font-size: 35px;
     margin-bottom: 12px;
 }
 
-.user-content .user-description{
+.user-content .user-description {
     color: #534C64;
     font-size: 13px;
     font-weight: 500;
@@ -216,7 +216,98 @@ body {
 }
 
 
-.user-content .user-last-title{
+.user-content .user-last-title {
     font-size: 20px;
     margin-top: 15px;
+}
+
+
+/* collectin style */
+
+#collection {
+    padding: 50px 0px;
+}
+
+.collection-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.collection-title h1 {
+    color: #0B0223;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.collection-title h1 span {
+    background: linear-gradient(to bottom , #F948B2 , #8758F1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.collection-title p{
+    color: #534C64;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.collection-item-wrapper{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 25px;
+}
+
+.collection-item .collection-item-img{
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+.collection-item .collection-item-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collection-item .collection-item-img:hover .collection-img-effect{
+    display: block;
+}
+
+.collection-img-effect{
+    position: absolute;
+    top:0;
+    right: 0;
+    text-align: center;
+    background: #000000ac;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    padding-top: 48%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 2px solid #FF42A5;
+    display: none;
+}
+
+.collection-img-effect i{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.collection-img-effect p{
+    color: #FF42A5;
+    font-weight: 500;
+}
+
+
+.c-item-desc{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
 }

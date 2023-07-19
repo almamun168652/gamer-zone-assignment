@@ -1,12 +1,22 @@
 /* 1024px responsive */
 
-@media screen and ( max-width: 1024px ) {
-    .container{
+@media screen and (max-width: 1024px) {
+    .container {
         width: 90%;
     }
 
-    .user-wrapper{
+    .user-wrapper {
         padding: 20px 0px;
+    }
+
+    .instant-content-wrapper {
+        width: 65%;
+    }
+
+    .online-img .online-img-wrapper .online-sub-img,
+    .instant-img .instant-img-wrapper .intant-sub-img {
+        max-height: 225px;
+        max-width: 200px;
     }
 }
 
@@ -14,28 +24,29 @@
 
 /* 992px responsive */
 
-@media screen and ( max-width: 992px ) {
+@media screen and (max-width: 992px) {
     .banner-wrapper {
-       height: auto;
+        height: auto;
     }
 
-    .user-wrapper{
+    .user-wrapper {
         flex-direction: column;
     }
 
-    .user-img , .user-content{
+    .user-img,
+    .user-content {
         width: 100%;
         text-align: center;
     }
 
-    .user-content .user-description{
+    .user-content .user-description {
         width: 70%;
         margin: 0 auto;
         margin-bottom: 10px;
     }
 
-    .collection-item-wrapper{
-        grid-template-columns: repeat(2 , 1fr);
+    .collection-item-wrapper {
+        grid-template-columns: repeat(2, 1fr);
         width: 70%;
         margin: 0 auto;
     }
@@ -43,7 +54,23 @@
     .collection-title {
         width: 100%;
     }
+    .online-content-wrapper,
+    .instant-content-wrapper {
+        width: 75%;
+    }
 
+    .instant-img .instant-img-wrapper .intant-sub-img {
+        max-height: 200px;
+        max-width: 180px;
+        bottom: -40px;
+        left: -80px;
+    }
+    .online-img .online-img-wrapper .online-sub-img{
+        max-height: 200px;
+        max-width: 180px;
+        bottom: -40px;
+        right: -80px;
+    }
 }
 
 
@@ -51,28 +78,72 @@
 
 /* 768px responsive */
 
-@media screen and ( max-width: 768px ) {
-    .nav{
+@media screen and (max-width: 768px) {
+    .nav  {
         flex-direction: column;
         margin-top: 20px;
     }
 
-    #header{
+
+    #header {
         padding-bottom: 30px;
     }
 
-    .banner-wrapper{
+    .banner-wrapper {
         flex-direction: column-reverse;
     }
 
-    .banner-content, .banner-img {
+    .banner-content,
+    .banner-img {
         max-width: 90%;
     }
 
-    .banner-content{
+    .banner-content {
         padding: 30px 0px;
     }
-    .collection-item-wrapper{
+
+    .collection-item-wrapper {
+        width: 80%;
+    }
+
+    #banner {
+        background: none;
+    }
+
+    .banner-content {
+        background-image: url('../images/Group\ 14.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .instant-wrapper{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+   .online-wrapper{
+    flex-direction: column-reverse;
+    gap: 25px;
+
+   }
+
+   .online-content-wrapper,
+    .instant-content-wrapper {
+        text-align: center;
+    }
+
+    .online-img,
+    .instant-img {
+        width: 50%;
+    }
+
+    .online-content,
+    .instant-content {
         width: 80%;
     }
 
@@ -86,15 +157,15 @@
 
 /* 576px responsive */
 
-@media screen and ( max-width: 576px ) {
-    .menu-container{
+@media screen and (max-width: 576px) {
+    .menu-container {
         flex-direction: column;
         text-align: center;
         margin-top: 20px;
-        gap:20px;
+        gap: 20px;
     }
 
-    .collection-item-wrapper{
+    .collection-item-wrapper {
         grid-template-columns: 1fr;
     }
 
@@ -105,4 +176,36 @@
     .collection-title h1 {
         font-size: 26px;
     }
+
+    .online-img,
+    .instant-img {
+        width: 65%;
+    }
+
+    .instant-img .instant-img-wrapper .intant-sub-img {
+        max-height: 160px;
+        max-width: 140px;
+        bottom: -30px;
+        left: -40px;
+    }
+
+    
+    .online-img .online-img-wrapper .online-sub-img{
+        max-height: 160px;
+        max-width: 140px;
+        bottom: -30px;
+        right: -40px;
+    }
+    
+
+    .online-content,
+    .instant-content {
+        width: 100%;
+    }
+
+    .online-content-wrapper h1,
+    .instant-content-wrapper h1 {
+        font-size: 30px;
+    }
+
 }

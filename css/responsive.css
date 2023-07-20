@@ -236,6 +236,10 @@
         font-size: 26px;
     }
 
+    .c-item-desc {
+        text-align: center;
+    }
+
     .online-img,
     .instant-img {
         width: 65%;
@@ -314,6 +318,8 @@
         margin:0 auto;
         margin-top: 20px;
     }
+
+
 
 }
 
